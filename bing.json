@@ -1,0 +1,44 @@
+{
+  "address": {
+    "addressLine": "Soborna vulytsia, 52",
+    "adminDistrict": "Vinnytska oblast",
+    "countryRegion": "Ukraine",
+    "formattedAddress": "Soborna vulytsia, 52, Vinnytsia, Ukraine",
+    "locality": "Vinnytsia"
+  },
+  "bestView": {
+    "center": {
+      "latitude": 49.233109999999996,
+      "longitude": 28.46826,
+      "altitude": 0,
+      "altitudeReference": -1
+    },
+    "width": 0.0034431999999995355,
+    "height": -0.0022484000000062565,
+    "crs": {
+      "id": "LatLon",
+      "bounds": [ 90, 180, -90, -180 ]
+    },
+    "bounds": [ 49.23198579999999, 28.4699816, 49.2342342, 28.4665384 ]
+  },
+  "entityType": "Address",
+  "location": {
+    "latitude": 49.23311,
+    "longitude": 28.46826,
+    "altitude": 0,
+    "altitudeReference": -1,
+    "name": "Soborna vulytsia, 52, Vinnytsia, Ukraine"
+  },
+  "locations": [
+    {
+      "latitude": 49.23311,
+      "longitude": 28.46826,
+      "altitude": 0,
+      "altitudeReference": -1,
+      "precision": "Interpolation"
+    }
+  ],
+  "matchCode": "Good",
+  "matchConfidence": "Medium",
+  "name": "Soborna vulytsia, 52, Vinnytsia, Ukraine"
+}
