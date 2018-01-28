@@ -1,0 +1,24 @@
+{
+  "name": "compass.frontend",
+  "version": "1.0.0",
+  "description": "HTML reverse geoip for Sitecore",
+  "main": "compass.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery.cookie": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonytm/Compass.git"
+  },
+  "author": "antonytm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antonytm/Compass/issues"
+  },
+  "homepage": "https://github.com/Antonytm/Compass#readme"
+}

@@ -8,3 +8,6 @@ packages/*
 Compass.userprefs
 .vs/config/applicationhost.config
 Compass.Tests/app.config
+Compass.Frontend/node_modules/*
+Compass.Frontend/bin/*
+Compass.Frontend/obj/*
