@@ -1,0 +1,46 @@
+﻿{
+  "address": {
+    "addressLine": "1 Normand Mews",
+    "adminDistrict": "England",
+    "countryRegion": "United Kingdom",
+    "district": "London",
+    "formattedAddress": "1 Normand Mews, W14, W14 9",
+    "locality": "W14",
+    "postalCode": "W14 9"
+  },
+  "bestView": {
+    "center": {
+      "latitude": 51.4866388,
+      "longitude": -0.2077119,
+      "altitude": 0,
+      "altitudeReference": -1
+    },
+    "width": 0.01654047746508197,
+    "height": -0.007725435141352932,
+    "crs": {
+      "id": "LatLon",
+      "bounds": [ 90, 180, -90, -180 ]
+    },
+    "bounds": [ 51.482776082429325, -0.19944166126745902, 51.49050151757068, -0.215982138732541 ]
+  },
+  "entityType": "Address",
+  "location": {
+    "latitude": 51.4866388,
+    "longitude": -0.2077119,
+    "altitude": 0,
+    "altitudeReference": -1,
+    "name": "1 Normand Mews, W14, W14 9"
+  },
+  "locations": [
+    {
+      "latitude": 51.4866388,
+      "longitude": -0.2077119,
+      "altitude": 0,
+      "altitudeReference": -1,
+      "precision": "Interpolation"
+    }
+  ],
+  "matchCode": "Good",
+  "matchConfidence": "Medium",
+  "name": "1 Normand Mews, W14, W14 9"
+}

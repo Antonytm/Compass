@@ -13,15 +13,18 @@ namespace Compass.Parse
         public override WhoIsInformation ParseJsonString(string json)
         {
             var data = BingData.FromJson(json);
-            var city = data.Address.Locality;
+            var city = String.IsNullOrEmpty(data.Address.District)?
+                data.Address.Locality:
+                data.Address.District;
             var longitude = data.Location.Longitude;
             var latitude = data.Location.Latitude;
             var country = data.Address.CountryRegion;
-            var region = data.Address.CountryRegion;
+            var region = data.Address.AdminDistrict;
+            var postalCode = data.Address.PostalCode;
             var geoIpData = new WhoIsInformation()
             {
                 City = city,
-                AreaCode = ",",
+                AreaCode = "",
                 BusinessName = "",
                 Country = country,
                 Dns = "",
@@ -30,7 +33,7 @@ namespace Compass.Parse
                 Latitude = latitude,
                 Longitude = longitude,
                 MetroCode = "",
-                PostalCode = "",
+                PostalCode = postalCode,
                 Region = region,
                 Url = ""
                            

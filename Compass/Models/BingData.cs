@@ -40,11 +40,17 @@ namespace Compass.Models
         [JsonProperty("countryRegion")]
         public string CountryRegion { get; set; }
 
+        [JsonProperty("district")]
+        public string District { get; set; }
+
         [JsonProperty("formattedAddress")]
         public string FormattedAddress { get; set; }
 
         [JsonProperty("locality")]
         public string Locality { get; set; }
+
+        [JsonProperty("postalCode")]
+        public string PostalCode { get; set; }
     }
 
     public partial class BestView

@@ -8,35 +8,46 @@
     <p id="demo"></p>
 
     <div id='myMap' style='width: 100vw; height: 100vh;'></div>
+	<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=ArHzRulY-1R3JxLzZGpM9e21hiMFGUZR4BnoXdTWjG-SjRSqTnUvGE1ZiYocAYFj&callback=loadMapScenario' async defer></script>
     <script type="text/javascript">
         var x = document.getElementById("demo");
 
+		
+		
         function getLocation() {
-            if (navigator.geolocation) {
+			reverse(51.4866388,-0.2077119);
+            /*if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPosition);
             } else {
                 x.innerHTML = "Geolocation is not supported by this browser.";
             }
+			*/
         }
 
         function showPosition(position) {
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-            "<br>Longitude: " + position.coords.longitude;
-
-            Microsoft.Maps.loadModule('Microsoft.Maps.Search', function () {
-                var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
-                var searchManager = new Microsoft.Maps.Search.SearchManager(map);
-                var reverseGeocodeRequestOptions = {
-                    location: new Microsoft.Maps.Location(position.coords.latitude, position.coords.longitude),
-                    callback: function (answer, userData) {
-                        console.log(answer);
-                    }
-                };
-                searchManager.reverseGeocode(reverseGeocodeRequestOptions);
-                console.log(x);
-            });
+			reverse(51.4866388,-0.2077119);
+            //x.innerHTML = "Latitude: " + position.coords.latitude +
+            //"<br>Longitude: " + position.coords.longitude;
+			//reverse(position.coords.latitude, position.coords.longitude)
         }
+		
+		function reverse(x,y)
+		{
+			Microsoft.Maps.loadModule('Microsoft.Maps.Search', function () {
+				var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {});
+				var searchManager = new Microsoft.Maps.Search.SearchManager(map);
+				var reverseGeocodeRequestOptions = {
+					location: new Microsoft.Maps.Location(x, y),
+					callback: function (answer, userData) {
+						console.log(answer);
+						console.log(JSON.stringify(answer));
+					}
+				};
+				searchManager.reverseGeocode(reverseGeocodeRequestOptions);
+				
+            });
+		}
     </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=ArHzRulY-1R3JxLzZGpM9e21hiMFGUZR4BnoXdTWjG-SjRSqTnUvGE1ZiYocAYFj&callback=loadMapScenario' async defer></script>
+    
 </body>
 </html>

@@ -1,4 +1,9 @@
 bin/*
 obj/*
+Compass/bin/*
+Compass/obj/*
+Compass.Tests/bin/*
+Compass.Tests/obj/*
 packages/*
 Compass.userprefs
+.vs/config/applicationhost.config

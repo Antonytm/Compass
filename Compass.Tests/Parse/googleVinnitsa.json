@@ -1,0 +1,267 @@
+[
+  {
+    "address_components": [
+      {
+        "long_name": "52-54",
+        "short_name": "52-54",
+        "types": [ "street_number" ]
+      },
+      {
+        "long_name": "Soborna Street",
+        "short_name": "Soborna St",
+        "types": [ "route" ]
+      },
+      {
+        "long_name": "Vinnytsia",
+        "short_name": "Vinnytsia",
+        "types": [ "locality", "political" ]
+      },
+      {
+        "long_name": "Vinnyts'ka oblast",
+        "short_name": "Vinnyts'ka oblast",
+        "types": [ "administrative_area_level_1", "political" ]
+      },
+      {
+        "long_name": "Ukraine",
+        "short_name": "UA",
+        "types": [ "country", "political" ]
+      },
+      {
+        "long_name": "21000",
+        "short_name": "21000",
+        "types": [ "postal_code" ]
+      }
+    ],
+    "formatted_address": "Soborna St, 52-54, Vinnytsia, Vinnyts'ka oblast, Ukraine, 21000",
+    "geometry": {
+      "bounds": {
+        "south": 49.2329462,
+        "west": 28.467359699999975,
+        "north": 49.233236,
+        "east": 28.469067600000017
+      },
+      "location": {
+        "lat": 49.2331019,
+        "lng": 28.46822450000002
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "south": 49.2317421197085,
+        "west": 28.466864669708457,
+        "north": 49.2344400802915,
+        "east": 28.469562630291534
+      }
+    },
+    "place_id": "EmzQstGD0LvQuNGG0Y8g0KHQvtCx0L7RgNC90LAsIDUyLTU0LCDQktGW0L3QvdC40YbRjywg0JLRltC90L3QuNGG0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNGX0L3QsCwgMjEwMDA",
+    "types": [ "street_address" ]
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "Nezalezhnosti Maidan",
+        "short_name": "Nezalezhnosti Maidan",
+        "types": [ "bus_station", "establishment", "point_of_interest", "transit_station" ]
+      },
+      {
+        "long_name": "Vinnytsia",
+        "short_name": "Vinnytsia",
+        "types": [ "locality", "political" ]
+      },
+      {
+        "long_name": "Vinnyts'ka oblast",
+        "short_name": "Vinnyts'ka oblast",
+        "types": [ "administrative_area_level_1", "political" ]
+      },
+      {
+        "long_name": "Ukraine",
+        "short_name": "UA",
+        "types": [ "country", "political" ]
+      },
+      {
+        "long_name": "21000",
+        "short_name": "21000",
+        "types": [ "postal_code" ]
+      }
+    ],
+    "formatted_address": "Nezalezhnosti Maidan, Vinnytsia, Vinnyts'ka oblast, Ukraine, 21000",
+    "geometry": {
+      "location": {
+        "lat": 49.233138,
+        "lng": 28.46834100000001
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "south": 49.23178901970849,
+        "west": 28.466992019708528,
+        "north": 49.23448698029149,
+        "east": 28.46968998029149
+      }
+    },
+    "place_id": "ChIJmUauOHtbLUcRq9JQ3jSLSY8",
+    "types": [ "bus_station", "establishment", "point_of_interest", "transit_station" ]
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "Vinnytsia",
+        "short_name": "Vinnytsia",
+        "types": [ "locality", "political" ]
+      },
+      {
+        "long_name": "Vinnyts'ka city council",
+        "short_name": "Vinnyts'ka city council",
+        "types": [ "administrative_area_level_3", "political" ]
+      },
+      {
+        "long_name": "Vinnyts'ka oblast",
+        "short_name": "Vinnyts'ka oblast",
+        "types": [ "administrative_area_level_1", "political" ]
+      },
+      {
+        "long_name": "Ukraine",
+        "short_name": "UA",
+        "types": [ "country", "political" ]
+      },
+      {
+        "long_name": "21000",
+        "short_name": "21000",
+        "types": [ "postal_code" ]
+      }
+    ],
+    "formatted_address": "Vinnytsia, Vinnyts'ka oblast, Ukraine, 21000",
+    "geometry": {
+      "bounds": {
+        "south": 49.190448,
+        "west": 28.368179899999973,
+        "north": 49.27902,
+        "east": 28.571087900000066
+      },
+      "location": {
+        "lat": 49.233083,
+        "lng": 28.468216900000016
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "south": 49.190448,
+        "west": 28.368179899999973,
+        "north": 49.27902,
+        "east": 28.571087900000066
+      }
+    },
+    "place_id": "ChIJiWRaGWVbLUcR_nTd7lnh1Ms",
+    "types": [ "locality", "political" ]
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "21000",
+        "short_name": "21000",
+        "types": [ "postal_code" ]
+      },
+      {
+        "long_name": "Vinnytsia",
+        "short_name": "Vinnytsia",
+        "types": [ "locality", "political" ]
+      },
+      {
+        "long_name": "Vinnyts'ka oblast",
+        "short_name": "Vinnyts'ka oblast",
+        "types": [ "administrative_area_level_1", "political" ]
+      },
+      {
+        "long_name": "Ukraine",
+        "short_name": "UA",
+        "types": [ "country", "political" ]
+      }
+    ],
+    "formatted_address": "Vinnytsia, Vinnyts'ka oblast, Ukraine, 21000",
+    "geometry": {
+      "bounds": {
+        "south": 49.190274,
+        "west": 28.371120099999985,
+        "north": 49.27902,
+        "east": 28.571087900000066
+      },
+      "location": {
+        "lat": 49.233083,
+        "lng": 28.46821699999998
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "south": 49.190274,
+        "west": 28.371120099999985,
+        "north": 49.27902,
+        "east": 28.571087900000066
+      }
+    },
+    "place_id": "ChIJiznY3GRbLUcRACOUeqbp0ZY",
+    "types": [ "postal_code" ]
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "Vinnyts'ka oblast",
+        "short_name": "Vinnyts'ka oblast",
+        "types": [ "administrative_area_level_1", "political" ]
+      },
+      {
+        "long_name": "Ukraine",
+        "short_name": "UA",
+        "types": [ "country", "political" ]
+      }
+    ],
+    "formatted_address": "Vinnyts'ka oblast, Ukraine",
+    "geometry": {
+      "bounds": {
+        "south": 48.064971,
+        "west": 27.3708259,
+        "north": 49.889537,
+        "east": 30.022070999999983
+      },
+      "location": {
+        "lat": 49.233083,
+        "lng": 28.468216900000016
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "south": 48.064971,
+        "west": 27.3708259,
+        "north": 49.889537,
+        "east": 30.022070999999983
+      }
+    },
+    "place_id": "ChIJiy6tDP5UzUARsED2iIQGAQE",
+    "types": [ "administrative_area_level_1", "political" ]
+  },
+  {
+    "address_components": [
+      {
+        "long_name": "Ukraine",
+        "short_name": "UA",
+        "types": [ "country", "political" ]
+      }
+    ],
+    "formatted_address": "Ukraine",
+    "geometry": {
+      "bounds": {
+        "south": 44.2924,
+        "west": 22.137158999999997,
+        "north": 52.37958099999999,
+        "east": 40.2285809
+      },
+      "location": {
+        "lat": 48.379433,
+        "lng": 31.16557990000001
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "south": 44.2924,
+        "west": 22.137158999999997,
+        "north": 52.37958099999999,
+        "east": 40.2285809
+      }
+    },
+    "place_id": "ChIJjw5wVMHZ0UAREED2iIQGAQA",
+    "types": [ "country", "political" ]
+  }
+]
