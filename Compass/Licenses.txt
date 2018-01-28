@@ -1,0 +1,168 @@
+﻿BING REST:
+https://www.microsoft.com/en-us/maps/licensing/default
+Subscription based programs offering entry level at 100K transactions per month for $4,500
+
+Google:
+https://developers.google.com/maps/pricing-and-plans/
+Free up to 2,500 requests per day.
+$0.50 USD / 1,000 additional requests, up to 100,000 daily, if billing is enabled.
+
+Yahoo:
+https://developer.yahoo.com/boss/geo/
+Price/1000 Queries (USD)
+			0 - 10,000	$6.00
+PlaceFinder	10,001 - 35,000	$4.00
+			35,000+	$3.00
+PlaceSpotter N/A	$8.00
+
+OpenCage:
+https://geocoder.opencagedata.com/pricing
+Free Trial
+up to 2,500 
+requests/day
+1 request/sec
+free
+Sign Up
+X-Small
+up to 10,000 
+requests/day
+10 requests/sec
+$50/mo
+Sign Up
+Small
+most popular
+up to 20,000 
+requests/day
+12 requests/sec
+$100/mo
+Sign Up
+Medium
+up to 100,000 
+requests/day
+15 requests/sec
+$500/mo
+Contact Us
+Large
+up to 1,000,000 
+requests/day
+15 requests/sec
+$1,000/mo
+Contact Us
+
+Here.com:
+https://developer.here.com/plans
+BASIC
+$0
+Build your app for free
+
+15K
+transactions per month
+Sign up
+STANDARD FEATURES
+STARTER MOBILE SDKS
+STARTER
+$49
+monthly or $490
+per year with annual billing
+
+100K
+transactions per month Sign up
+STANDARD FEATURES
+STARTER MOBILE SDKS
+SUPPORT VIA EMAIL
+99.9% UP-TIME
+STANDARD
+$119
+monthly or $1,190
+per year with annual billing
+
+250K
+transactions per month Sign up
+STANDARD FEATURES
+STARTER MOBILE SDKS
+SUPPORT VIA EMAIL
+99.9% UP-TIME
+PRO
+$449
+monthly or $4,490
+per year with annual billing
+
+1M
+transactions per month Sign up
+STANDARD FEATURES
+STARTER MOBILE SDKS
+SUPPORT VIA EMAIL
+99.9% UP-TIME
+CONTACT US
+custom price
+Get in touch to set up a plan that meets your needs.
+
+1M+
+transactions per month
+Contact Us
+STANDARD & ADVANCED FEATURES
+STARTER & PREMIUM MOBILE SDKS
+SUPPORT VIA EMAIL AND PHONE
+99.9% UP-TIME
+
+csv2geo:
+https://csv2geo.com/
+1	100	0	0	USD
+101	5000	5	0.004	USD
+5001	10000	20	0.0035	USD
+10001	50000	30	0.003	USD
+50001	100000	120	0.0024	USD
+100001	250000	150	0.0015	USD
+250001	500000	350	0.0014	USD
+500001	1000000	600	0.0012	USD
+1000001	1250000	1150	0.00115	USD
+1000001	1250000	1150	0.00115	USD
+
+Factual:
+https://www.factual.com/products/global-places/
+?????
+AWS: about 1000 per month
+https://aws.amazon.com/marketplace/pp/B010N7T4E2
+
+Geocodio:
+https://geocod.io/pricing/
+1,000,000 = $448.88
+100,000 = 48$
+
+Geonames.org:
+20,000/hr - free
+
+mapquest.com:
+https://developer.mapquest.com/plans
+FREE
+15,000
+transactions per month
+$ 0
+per month
+Get Started
+BASIC
+30,000
+transactions per month
+$ 99
+per month
+Buy
+PLUS
+75,000
+transactions per month
+$ 199
+per month
+Buy
+BUSINESS
+200,000
+transactions per month
+$ 399
+per month
+Buy
+BUSINESS PLUS
+500,000
+transactions per month
+$ 799
+per month
+
+Nominatim, own server:
+https://wiki.openstreetmap.org/wiki/Nominatim/Installation
