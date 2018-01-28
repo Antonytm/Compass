@@ -8,7 +8,7 @@ using Sitecore.Analytics.Model;
 
 namespace Compass.Parse
 {
-    public class GoogleSerializationManager:SerializationManager
+    public class GoogleSerializationManager : SerializationManager, ISerializationManager
     {
         public override WhoIsInformation ParseJsonString(string json)
         {

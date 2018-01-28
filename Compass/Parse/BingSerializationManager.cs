@@ -8,13 +8,19 @@ using Sitecore.Analytics.Model;
 
 namespace Compass.Parse
 {
-    public class BingSerializationManager:SerializationManager
+    public interface ISerializationManager
+    {
+        WhoIsInformation ParseJsonString(string json);
+        void SetInteractionValues(string json);
+    }
+
+    public class BingSerializationManager : SerializationManager, ISerializationManager
     {
         public override WhoIsInformation ParseJsonString(string json)
         {
             var data = BingData.FromJson(json);
-            var city = String.IsNullOrEmpty(data.Address.District)?
-                data.Address.Locality:
+            var city = String.IsNullOrEmpty(data.Address.District) ?
+                data.Address.Locality :
                 data.Address.District;
             var longitude = data.Location.Longitude;
             var latitude = data.Location.Latitude;
@@ -36,7 +42,7 @@ namespace Compass.Parse
                 PostalCode = postalCode,
                 Region = region,
                 Url = ""
-                           
+
             };
             return geoIpData;
         }

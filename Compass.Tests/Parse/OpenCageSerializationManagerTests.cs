@@ -1,28 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Compass.Parse;
-using FluentAssertions;
 using NUnit.Framework;
-using NUnit.Framework.Constraints;
 
 namespace Compass.Tests.Parse
 {
-    [TestFixture]
-    class BingSerializationManagerTests : SerializationManagerTest
+    public class OpenCageSerializationManagerTests : SerializationManagerTest
     {
-        [SetUp]
-        protected void SetUp()
-        {
-
-        }
-
         [Test]
-        [TestCase("parse\\bingVinnitsa.json", "N/A", "N/A", "Vinnytsia", "Ukraine", "N/A", "N/A", false, 49.23311, 28.46826, "N/A", "N/A", "Vinnytska oblast", "N/A")]
-        [TestCase("parse\\bingLondon.json", "N/A", "N/A", "London", "United Kingdom", "N/A", "N/A", false, 51.4866388, -0.2077119, "N/A", "W14 9", "England", "N/A")]
+        [TestCase("parse\\openCageVinnitsa.json", "N/A", "N/A", "Vinnytsia", "Ukraine", "N/A", "N/A", false, 49.2289626, 28.5278061, "N/A", "21000-21499", "Vinnytsia Oblast", "N/A")]
+        [TestCase("parse\\openCageSwakopmund.json", "N/A", "N/A", "Swakopmund", "Namibia", "N/A", "N/A", false, -22.6791826, 14.5268016, "N/A", "N/A", "Erongo Region", "N/A")]
+        [TestCase("parse\\openCageLondon.json", "N/A", "N/A", "London", "United Kingdom", "N/A", "N/A", false, 51.5288507, -0.2425688, "N/A", "NW10 6UG", "England", "N/A")]
         public void Parse(string filename,
             string areaCode,
             string businessName,
@@ -40,7 +31,7 @@ namespace Compass.Tests.Parse
             )
         {
             TestDeserialization(filename, areaCode, businessName, city, country, isp, dns, isUnknown, latitude, longitude, metroCode, postalCode, region, url,
-                new BingSerializationManager());
+                new OpenCageSerializationManager());
         }
     }
 }

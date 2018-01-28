@@ -7,3 +7,4 @@ Compass.Tests/obj/*
 packages/*
 Compass.userprefs
 .vs/config/applicationhost.config
+Compass.Tests/app.config

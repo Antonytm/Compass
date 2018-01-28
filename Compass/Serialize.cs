@@ -7,5 +7,6 @@ namespace Compass
     {
         public static string ToJson(this BingData self) => JsonConvert.SerializeObject(self, Converter.Settings);
         public static string ToJson(this GoogleData[] self) => JsonConvert.SerializeObject(self, Converter.Settings);
+        public static string ToJson(this OpenCageData self) => JsonConvert.SerializeObject(self, Converter.Settings);
     }
 }

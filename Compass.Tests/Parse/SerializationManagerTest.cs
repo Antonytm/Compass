@@ -14,13 +14,12 @@ namespace Compass.Tests.Parse
     {
         public static void TestDeserialization(string filename, string areaCode, string businessName, string city,
             string country, string isp, string dns, bool isUnknown, double latitude, double longitude, string metroCode,
-            string postalCode, string region, string url)
+            string postalCode, string region, string url, ISerializationManager manager)
         {
             
             var directory = Path.GetDirectoryName(TestContext.CurrentContext.TestDirectory);
             var path = $"{directory}\\debug\\{filename}";
             var json = File.ReadAllText(path);
-            var manager = new BingSerializationManager();
             var whoIs = manager.ParseJsonString(json);
 
             whoIs.AreaCode.Should().Be(areaCode);

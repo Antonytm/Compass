@@ -1,0 +1,122 @@
+﻿{
+   "documentation" : "https://geocoder.opencagedata.com/api",
+   "licenses" : [
+      {
+         "name" : "CC-BY-SA",
+         "url" : "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+         "name" : "ODbL",
+         "url" : "http://opendatacommons.org/licenses/odbl/summary/"
+      }
+   ],
+   "rate" : {
+      "limit" : 2500,
+      "remaining" : 2497,
+      "reset" : 1517184000
+   },
+   "results" : [
+      {
+         "annotations" : {
+            "DMS" : {
+               "lat" : "49\u00b0 13' 44.26536'' N",
+               "lng" : "28\u00b0 31' 40.10196'' E"
+            },
+            "MGRS" : "35UPQ1123254032",
+            "Maidenhead" : "KN49gf34iw",
+            "Mercator" : {
+               "x" : 3175700.844,
+               "y" : 6281423.727
+            },
+            "OSM" : {
+               "edit_url" : "https://www.openstreetmap.org/edit?way=356243438#map=17/49.22896/28.52781",
+               "url" : "https://www.openstreetmap.org/?mlat=49.22896&mlon=28.52781#map=17/49.22896/28.52781"
+            },
+            "callingcode" : 380,
+            "currency" : {
+               "alternate_symbols" : [],
+               "decimal_mark" : ".",
+               "html_entity" : "&#x20B4;",
+               "iso_code" : "UAH",
+               "iso_numeric" : 980,
+               "name" : "Ukrainian Hryvnia",
+               "smallest_denomination" : 1,
+               "subunit" : "Kopiyka",
+               "subunit_to_unit" : 100,
+               "symbol" : "\u20b4",
+               "symbol_first" : 0,
+               "thousands_separator" : ","
+            },
+            "flag" : "\ud83c\uddfa\ud83c\udde6",
+            "geohash" : "u8u211v76pcbwcn0szn4",
+            "qibla" : 158.06,
+            "sun" : {
+               "rise" : {
+                  "apparent" : 1517118120,
+                  "astronomical" : 1517111520,
+                  "civil" : 1517116080,
+                  "nautical" : 1517113740
+               },
+               "set" : {
+                  "apparent" : 1517151360,
+                  "astronomical" : 1517158020,
+                  "civil" : 1517153460,
+                  "nautical" : 1517155800
+               }
+            },
+            "timezone" : {
+               "name" : "Europe/Kiev",
+               "now_in_dst" : 0,
+               "offset_sec" : 7200,
+               "offset_string" : 200,
+               "short_name" : "EET"
+            },
+            "what3words" : {
+               "words" : "appear.validated.outreach"
+            }
+         },
+         "bounds" : {
+            "northeast" : {
+               "lat" : 49.2290387,
+               "lng" : 28.5279012
+            },
+            "southwest" : {
+               "lat" : 49.2289081,
+               "lng" : 28.5277204
+            }
+         },
+         "components" : {
+            "ISO_3166-1_alpha-2" : "UA",
+            "_type" : "building",
+            "city" : "Vinnytsia",
+            "country" : "Ukraine",
+            "country_code" : "ua",
+            "house_number" : "18",
+            "postcode" : "21000-21499",
+            "road" : "Forpostna Street",
+            "state" : "Vinnytsia Oblast",
+            "suburb" : "\u0422\u044f\u0436\u0438\u043b\u0456\u0432"
+         },
+         "confidence" : 10,
+         "formatted" : "Forpostna Street, 18, \u0422\u044f\u0436\u0438\u043b\u0456\u0432, Vinnytsia, 21000-21499, Ukraine",
+         "geometry" : {
+            "lat" : 49.2289626,
+            "lng" : 28.5278061
+         }
+      }
+   ],
+   "status" : {
+      "code" : 200,
+      "message" : "OK"
+   },
+   "stay_informed" : {
+      "blog" : "https://blog.opencagedata.com",
+      "twitter" : "https://twitter.com/opencagedata"
+   },
+   "thanks" : "For using an OpenCage Data API",
+   "timestamp" : {
+      "created_http" : "Sun, 28 Jan 2018 19:08:22 GMT",
+      "created_unix" : 1517166502
+   },
+   "total_results" : 1
+}

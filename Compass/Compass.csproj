@@ -39,6 +39,14 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="OpenCage.Geocode, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCageGeocoder.1.0.1\lib\OpenCage.Geocode.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=3.9.71.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ServiceStack.Text.3.9.71\lib\net35\ServiceStack.Text.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.Analytics, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.Analytics.NoReferences.8.2.171121\lib\NET452\Sitecore.Analytics.dll</HintPath>
       <Private>True</Private>
@@ -134,14 +142,17 @@
     <Compile Include="Converter.cs" />
     <Compile Include="Models\BingData.cs" />
     <Compile Include="Models\GoogleData.cs" />
+    <Compile Include="Models\OpenCageData.cs" />
     <Compile Include="Parse\BingSerializationManager.cs" />
     <Compile Include="Parse\GoogleSerializationManager.cs" />
     <Compile Include="Parse\JsonType.cs" />
+    <Compile Include="Parse\OpenCageSerializationManager.cs" />
     <Compile Include="Parse\SerializationManager.cs" />
     <Compile Include="Serialize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
